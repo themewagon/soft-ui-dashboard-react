@@ -72,6 +72,12 @@ function Footer({ company, links }) {
             &nbsp;{name}&nbsp;
           </SoftTypography>
         </Link>
+        , distributed by{" "}
+        <Link href="https://themewagon.com/" target="_blank">
+          <SoftTypography variant="button" fontWeight="medium">
+            &nbsp;ThemeWagon&nbsp;
+          </SoftTypography>
+        </Link>
         for a better web.
       </SoftBox>
       <SoftBox

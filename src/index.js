@@ -23,7 +23,7 @@ import { SoftUIControllerProvider } from "context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="soft-ui-dashboard-react">
     <SoftUIControllerProvider>
       <App />
     </SoftUIControllerProvider>
